@@ -1,0 +1,238 @@
+.padding{
+    padding-top: 100px;
+}
+.container-css{
+    padding: 0 250px;
+    text-align: center;
+}
+.c-image{
+    width: 100%;
+    height: 230px;
+    background: white;
+    z-index: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.c-image img{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.p-image{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin: -75px 0 0 0;
+}
+.p-image img{
+    border-radius: 50%;
+    border: solid green 3px;
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 0 auto;
+}
+.name{
+    color: yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: .2rem;
+}
+.post-something{
+    margin: 30px 0 0 0;
+    padding: 0 100px 0 0;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.post-something img{
+    width: 70px;
+    height: 70px;
+    background: white;
+}
+.post-something textarea{
+    height: 100px;
+    width: 80%;
+    resize: none;
+    margin-left: 20px;
+    outline: rgb(14, 233, 14);
+    border: 2px solid rgb(14, 233, 14);
+}
+.post-container{
+    padding: 50px 250px 0 250px;
+}
+.post-container p{
+    color: #bebebe;
+    width: 90%;
+}
+.post-container .post-img{
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 300px;
+    background: rgb(41, 40, 40);
+    border: 3px solid grey;
+    transition: 1s;
+}
+.post-container .post-img:hover{
+    box-shadow: 13px 13px 8px black;
+    transition: .5s;
+}
+.post-container .post-img img{
+    margin: 0 auto;
+    width: 300px;
+    transition: .5s;
+}
+.post-container .post-img img:hover{
+    width: 335px;
+    box-shadow: 13px 13px 8px black;
+    transition: .5s;
+}
+.post{
+    display: flex;
+    align-items: center;
+}
+.post span{
+    padding-left: 10px;
+    color: yellow;
+    font-size: .8rem;
+}
+.post span b{
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+}
+.post img{
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.post-something input{
+    color: #bebebe;
+}
+.comment-btn{
+    width: 80%;
+    background: rgb(41, 40, 40);
+    border: 2px solid black;
+    padding: 2px;
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px 0;
+    transition: .5s;
+}
+.comment-btn:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: .5s;
+}
+.comment-btn a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    color: cornsilk;
+}
+.align-top{
+    padding: 10px 10px 0 0;
+}
+.b{
+    height: 80px;
+    width: 100%;
+}
+a.acitve-profile{
+  color: #fff;
+  background: #2196f3;
+  border-radius: 40px;
+}
+
+
+
+@media (max-width: 991px){
+    .container-css{
+        padding: 0 20px 0 20px;
+    }
+    .c-image{
+        height: 160px;
+    }
+    .c-image img{
+        height: 100%;
+        z-index: 1;
+    }
+    .p-image img{
+        border-radius: 50%;
+        border: solid green 3px;
+        width: 130px;
+        height: 130px;
+        background: white;
+        margin: 0 auto;
+    }
+    .name{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .post-something{
+        padding: 0;
+    }
+    .post-something textarea{
+        height: 80px;
+    }
+    .post-something img{
+        height: 40px;
+        width: 40px;
+    }
+    .post-container{
+        padding: 30px 25px 0 25px;
+    }
+    .post-container p{
+        color: #bebebe;
+        width: 100%;
+    }
+    .post-container .post-img{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background: rgb(41, 40, 40);
+        margin: 0 auto;
+        border: 3px solid grey;
+        transition: .5s;
+    }
+    .post-container .post-img:hover{
+        box-shadow: 8px 8px 8px black;
+        transition: .5s;
+    }
+    .post-container .post-img img{
+        margin: 0 auto;
+        width: 200px;
+    }
+    .post-container .post-img img:hover{
+        width: 225px;
+        box-shadow: 13px 13px 800px black;
+        transition: .5s;
+    }
+    .post{
+        display: flex;
+        align-items: center;
+    }
+    .post span{
+        padding-left: 10px;
+        color: yellow;
+        font-size: .6rem;
+    }
+    .post span b{
+        font-size: 1rem;
+        letter-spacing: .2rem;
+    }
+    .post img{
+        background: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .b{
+        height: 100px;
+        width: 100%;
+    }
+}

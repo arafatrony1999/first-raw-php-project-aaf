@@ -1,0 +1,130 @@
+  .container-css{
+    padding-top: 100px;
+    max-width: 480px;
+    margin: auto;
+    text-align: center;
+  }
+  .container-css h1{
+    border: 2px solid #4caf50;
+    color: #ed5565;
+    padding: 30px 0;
+  }
+  .container-css input{
+    margin-top: 18px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .container-css .name{
+    border-bottom: 2px solid #4caf50;
+    width: 45%;
+    padding-left: 3%;
+    font-size: 1rem;
+    color: #bebebe;
+  }
+  .container-css .b{
+    border-bottom: 2px solid #4caf50;
+    width: 95%;
+    padding-left: 3%;
+    font-size: 1rem;
+    color: #bebebe;
+  }
+  .container-css .c{
+    width: 98%;
+    border: 2px solid #4caf50;
+    color: #ed5565;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .gender{
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 4%;
+    color: #bebebe;
+  }
+  .gender .select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #4caf50 solid 2px;
+    background: none;
+    outline: none;
+    font-size: 1rem;
+    color: #bebebe;
+    width: calc(98% - 4% - 50px - 15px);
+    padding-left: 3%;
+  }
+  .gender .select:focus{
+    color: #bebebe;
+    background: #252627;
+  }
+  .country input{
+    border-bottom: #4caf50 solid 2px;
+    padding-left: 3%;
+    font-size: 1rem;
+    color: #bebebe;
+  }
+  .country input:nth-child(1){
+    width: 30%;
+  }
+  .country input:nth-child(2){
+    width: 60%;
+  }
+  .pic{
+    width: 100%;
+    color: #bebebe;
+    padding-left: 3%;
+    outline: none;
+  }
+  .empty{
+    padding-top: 10px;
+  }
+
+
+
+@media (max-width:992px){
+  .container-css{
+    width: 250px;
+  }
+  .container-css h1{
+    font-size: 1rem;
+    padding: 18px 0;
+  }
+  .container-css .name{
+    width: 45%;
+    padding-left: 2%;
+    font-size: .8rem;
+  }
+  .container-css .b{
+    padding-left: 2%;
+    font-size: .8rem;
+  }
+  .container-css .c{
+    padding: 8px;
+    font-size: .8rem;
+  }
+  .gender{
+    margin: 15px 0;
+    padding-left: 2%;
+  }
+  .gender .select{
+    font-size: .8rem;
+    width: calc(98% - 4% - 50px - 15px);
+    padding-left: 2%;
+  }
+  .country input{
+    padding-left: 2%;
+    font-size: .8rem;
+  }
+  .pic{
+    padding-left: 2%;
+    font-size: .6rem;
+  }
+  .empty{
+    padding-top: 6px;
+  }
+
+
+}
+

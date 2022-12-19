@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.aaa{
+    height: 100px;
+    width: 100%;
+}
+.card{
+    width: 290px;
+    height: 500px;
+    border: 2px solid #ed5565;
+    text-align: center;
+    background-color: white;
+}
+.card img{
+    width: 200px;
+    height: 180px;
+}
+.details{
+    height: 150px;
+    background: white;
+}
+h1{
+    color: #ed5565;
+}
+h4{
+    color: red;
+}
+.details a{
+    text-decoration: none;
+}
+.a{
+    padding-top: 120px;
+}

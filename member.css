@@ -1,0 +1,79 @@
+.padding{
+    height: 81px;
+    width: 100%;
+}
+.post-container{
+    padding: 10px 250px 0 250px;
+}
+.post-container p{
+    color: #bebebe;
+    width: 90%;
+}
+.post{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    border: 2px solid green;
+    padding: 0 10%;
+}
+.post span a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+}
+.post span:nth-child(3){
+    color: blue;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: auto;
+}
+.post span:nth-child(3) a{
+    font-size: .9rem;
+}
+.post img{
+    padding: 10px 0;
+    background: white;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    border-radius: 50%;
+}
+.post span:nth-child(1){
+    margin-right: auto;
+    font-size: 1.1rem;
+}
+.post span:nth-child(2){
+    margin-left: 5%;
+    font-size: 1.1rem;
+}
+a.active-member{
+  color: #fff;
+  background: #2196f3;
+  border-radius: 40px;
+}
+@media (max-width: 1024px){
+    .post-container{
+        padding: 15px 25px 0 25px;
+    }
+    .post span a{
+        color: black;
+        text-decoration: none;
+        font-size: .7rem;
+        letter-spacing: .1rem;
+    }
+    .post img{
+        padding: 10px 0;
+        background: white;
+        width: 35px;
+        height: 35px;
+        font-size: .5rem;
+    }
+    .post span:nth-child(1){
+        font-size: .7rem;
+    }
+    .padding{
+        height: 101px;
+        width: 100%;
+    }
+}

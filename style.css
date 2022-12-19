@@ -1,0 +1,152 @@
+/*
+@media (min-width: 576px) {
+    .container, .container-sm {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+      max-width: 1140px;
+    }
+  }*/
+html{
+  scroll-behavior: smooth;
+}
+.navbar-css{
+    background: #181818;
+}
+
+.logo-css{
+    position: relative;
+    border-radius: 50%;
+    height: 58px;
+    width: 58px;
+    margin: 0 15px 0 20px;
+}
+ul li{
+  font-weight : bold;
+  margin-right: 3px;
+}
+ul li a:hover{
+  border: 0 solid #2196f3;
+  background: #2196f3;
+  color: black;
+}
+ul li a:focus{
+  border: 1px solid #2196f3;
+  background: #2196f3;
+  color: black;
+  box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+
+.form{
+  width: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.form .input-css{
+  width: 480px;
+  margin: 20px 0;
+  border: none;
+  background: none;
+  outline: none;
+  color: #bebebe;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #4caf50 ;
+  padding: 10px 20px;
+}
+
+.btn-css{
+  width: 480px;
+  margin: 20px 0;
+  border: 2px solid #4caf50;
+  background: none;
+  padding: 10px 20px;
+  margin-top: 40px;
+  color: #ed5565;
+  cursor: pointer;
+}
+
+.btn-css a{
+  text-decoration: none;
+  color: #ed5565;
+  font-size: 1.2rem;
+}
+
+.btn-css p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ed5565;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  padding-top: 7px;
+}
+
+  @media (min-width: 992px){
+    .container-css{
+      position: relative;
+      padding: 0 100px 0 100px;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      background: #252627;
+      height: 100vh;
+    }
+    .pic-css{
+      width: 250px;
+      border-radius: 50%;
+    }
+    .profile-image{
+      padding: 40px 0;
+      display: flex;
+      justify-content: center;
+    }
+    .title-css{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #ed5565;
+    }
+    .title-css h1{
+        font-size: 3.5rem;
+        word-spacing: .5rem;
+        letter-spacing: .15rem;
+        cursor: pointer;
+    }
+    .container-css .container-form{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .container-css .container-form a{
+      border: 1px solid #2196f3;
+      background: #2196f3;
+      color: black;
+      font-size: 1.5rem;
+      padding: 2px 20px 8px 20px;
+    }
+    .container-css .container-form a:hover{
+      transition: .5s;
+      box-shadow: 5px 6px 8px #ed5565;
+    }
+  }
